@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sectio 2</title>
+        <author ref="#per-sykisy">Stefan Yavorskyi</author>
+        <respStmt>
+          <name ref="#justincoyle">Justin Coyle</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sectio 1</title>
+          <date when="2026-06-25">June 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-hbbgut">KDA 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="110-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="yth33t-f2x352">
+      <head xml:id="yth33t-f2x352-Hd1e108">Sectio 2</head> 
+      <head xml:id="yth33t-f2x352-Hd1e110">De sanctitate accidentali Christi Domini</head>
+      <p xml:id="yth33t-f2x352-d1e112">
+        <lb ed="#K" n="9"/>SECTIO II
+        <lb ed="#K" n="10"/>De Sanctitate accidentali Christi Domini
+      </p>
+      <p xml:id="yth33t-f2x352-d1e119">
+        <lb ed="#K" n="11"/>PARAGRAPHUS I
+        <lb ed="#K" n="12"/>An de facto Christus Sanctus fuerit 
+        <lb ed="#K" n="13"/>etiam per Gratiam habitualem infusam?
+      </p>
+      <p xml:id="yth33t-f2x352-d1e128">
+        <lb ed="#K" n="14"/>Dicendum primo. In Christo fuit defacto gratia habitualis sanctifi<lb ed="#K" n="15"/>cans 
+        humanitatem ipsius. Est conclusio ita certa apud Theologos ut oppositum 
+        <lb ed="#K" n="16"/>pro errore et temeritate habeatur.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e138">
+        <lb ed="#K" n="17"/>Probatur primo Sacra Scriptura ut <ref xml:id="yth33t-f2x352-Rd1e142">Ioannis primo</ref>. <quote xml:id="yth33t-f2x352-Qd1e144">Vidimus plenum gratiae 
+        <lb ed="#K" n="18"/>et veritatis</quote>. Quod intelligunt Sancti Patres de gratiae accidentalis pleni<lb ed="#K" n="19"/>tudine.
+        Et videre est late in <ref xml:id="yth33t-f2x352-Rd1e151">Suario</ref>.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e154">
+        <lb ed="#K" n="20"/>Probatur secundo rationibus. Prima Dantur in Christo habitus supernatura<lb ed="#K" n="21"/>les 
+        alias non elicuisset connaturaliter actus supernaturalis. Atqui illi
+        <lb ed="#K" n="22"/>habitus connaturaliter fundantur in gratia habituali tanquam radice sua.
+        <lb ed="#K" n="23"/>Ergo etiam haec radix debuit esse in Christo, ut ita connaturaliter existe<lb ed="#K" n="24"/>rent.
+        Secunda quia quanto aliquid receptivum propinquius est causae influenti, 
+        <lb ed="#K" n="25"/>tanto magis participat de eius influentia. Atqui humanitas Christi est 
+        <lb ed="#K" n="26"/>propinquissima Deo. Ergo debuit participare illas influentias gratiam.
+        <lb ed="#K" n="27"/>Tertia Illud Scripturae: De plenitudine eius omnes accepimus, intelligitur 
+        <lb ed="#K" n="28"/>de gratia. Ergo Christus debuit esse plenus gratia. Adde quod sicut 
+        <lb ed="#K" n="29"/>Christus voluit nobis similis esse quoad infirmitatem naturae, ita decuit, ut simi<lb ed="#K" n="30"/>lis 
+        esset in praecipuo ornamento naturae quod est gratia habitualis.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e180">
+        <lb ed="#K" n="31"/>Obiicitur primo. Si in Christo fuisset gratia habitualis, Christus esset 
+        <lb ed="#K" n="32"/>filius adoptivus Dei, non aliter sicut caeteri homines puri iusti. Respondeo nego 
+        <lb ed="#K" n="33"/>sequelam, quamvis enim reddere hominem filium Dei adoptivum sit effectus formalis 
+        <lb ed="#K" n="34"/>gratiae habitualis, non tamen eum <unclear>praestat</unclear> nisi in subiecto, capaci quale est persona 
+        <lb ed="#K" n="35"/>rationalis extranea Deo. Cum ergo Christus non fuisset persona extranea 
+        <pb ed="#K" n="111-r"/>
+        <lb ed="#K" n="1"/>Deo sed potius naturalis filius Dei, non potest per gratiam adoptari, adoptio 
+        <lb ed="#K" n="2"/>enim est personae extraneae in haereditatem assumptio.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e202">
+        <lb ed="#K" n="3"/>Urgetur. Ergo hoc ipso non debuit esse in Christo gratia sanctificans, 
+        <lb ed="#K" n="4"/>siquidem effectum suum formalem <unclear>praestare</unclear> non potuit. Respondeo distinguo si nec hunc nec 
+        <lb ed="#K" n="5"/>alium effectum <unclear>praestare</unclear> potuisset Concedo, secus nego. Gratia igitur in Christo non
+        <lb ed="#K" n="6"/><unclear>praestitit</unclear> effectum formalem filiationis adoptivae praestitit tamen humanitati Christi 
+        <lb ed="#K" n="7"/>speciale ornamentum scilicet amabilitatem singularem licet accidentalem;
+        <lb ed="#K" n="8"/>Deinde exigebat habituum supernaturalium infusionem, opponebatur cum peccato etc.
+        <lb ed="#K" n="9"/>Ergo non fuit frustranea.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e225">
+        <lb ed="#K" n="10"/>Obiicitur secundo. Gratia est quaedam participatio Divinitatis, atqui Christus
+        <lb ed="#K" n="11"/>non fuit Deus participationem sed per essentiam. Ergo non fuit in ipso gratia habitua<lb ed="#K" n="12"/>lis.
+        Respondeo Christus communicatam habuit divinitatem duplici via scilicet tum per identita<lb ed="#K" n="13"/>tem 
+        subsistentiae suae cum Divinitate, tum per gratiam. Nec novum est aliquid esse alterius 
+        <lb ed="#K" n="14"/>variis modis et titulis. 
+      </p>
+      <p xml:id="yth33t-f2x352-d1e238">
+        <lb ed="#K" n="15"/>Dicendum secundo. In Christo Domino gratia habitualis fuit perfectissima et ita
+        <lb ed="#K" n="16"/>copiosa ut quodammodo infinita dici possit. Ratio patet tam ex Scriptura extollente 
+        <lb ed="#K" n="17"/>Christum tanquam plenum gratiae et veritatis. Tum ex decentia respectu unigeniti 
+        <lb ed="#K" n="18"/>Dei. Fuit ergo in Christo gratia longe maior, quam sit omnium hominum et Ange<lb ed="#K" n="19"/>lorum 
+        collective sumptorum, et captum nostrum omnino excedens.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e252">
+        <lb ed="#K" n="20"/>Petes. Quando nam infusa est gratia animae Christi, et an tota simul? Respondeo tota 
+        <lb ed="#K" n="21"/>simul infusa est in primo instanti, conceptionis utpote debita ratione unionis hypos<lb ed="#K" n="22"/>taticae.
+        Et certe decebat Divinissimam illam animam plenitudo gratiae et decoris, 
+        <lb ed="#K" n="23"/>quae singulare esset Divinitatis <unclear>habitaculum</unclear>. Dum autem dicit Scriptura Christum 
+        <lb ed="#K" n="24"/>crevisse <unclear>aetate</unclear>, sapientia, gratia, id non est intelligendum de incremento gratiae secundum 
+        <lb ed="#K" n="25"/>se quasi Christus per meritorum continuationem eam auxisset successive, sed de 
+        <lb ed="#K" n="26"/>manifestatione eiusdem per opera exteriora perfectiora ita ut successeor hominibus 
+        <lb ed="#K" n="27"/>appararunt. Ita sicut Luna dicitur crescere, non quasi vero in se crescat, sed quod 
+        <lb ed="#K" n="28"/>successive cum maiori incremento hominibus appareat. Dices homi<lb ed="#K" n="29"/>nes 
+        iusti per opera supernaturalia meretur augmentum gratiae. Ergo et Christus 
+        <lb ed="#K" n="30"/>Respondeo nego Consequentiam, quia gratia in Christo fuit commensurata ex ordinatione 
+        <lb ed="#K" n="31"/>Divina unioni hypostaticae tanquam radici suae, adeoque statim data est in ea copia 
+        <lb ed="#K" n="32"/>quae decebat statum unionis. Deinde Christus per quemlibet statum suum mere<lb ed="#K" n="33"/>batur 
+        infinitas gratias, quae cum omnes dari non possent, pertinebat ad <unclear>providen<lb ed="#K" n="34"/>tiam</unclear>
+        Divinam definire mensuram et tempus illarum, expediebat autem ut haberetur 
+        <lb ed="#K" n="35"/>potius ratio status hypostaticae, quam successionis actuum.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e297">
+        <pb ed="#K" n="111-v"/>
+        <lb ed="#K" n="1"/>PARAGRAPHUS II
+        <lb ed="#K" n="2"/>De Aliis Gratiis et Habitibus Supernatura<lb ed="#K" n="3"/>libus 
+        Animae CHristi
+      </p>
+      <p xml:id="yth33t-f2x352-d1e308">
+        <lb ed="#K" n="4"/>Dicendum primo. In Christo fuerunt omnes habitus tam naturalium
+        <lb ed="#K" n="5"/>quam supernaturalium virtutum, qui nullam imperfectionem Christo vel statui eius
+        <lb ed="#K" n="6"/>beatifico disconvenientem invehunt. Ratio quia omnis perfectio perti<lb ed="#K" n="7"/>nens 
+        ad operationes connaturaliter perfecte exercendas, concedenda est 
+        <lb ed="#K" n="8"/>dignitati humanitatis Christi. Talis perfectio <unclear>sunt</unclear> habitus illi. Ergo, etc.
+        <lb ed="#K" n="9"/>Hinc in particulari sciendum est fuisse in Christo Domino habitum infusum 
+        <lb ed="#K" n="10"/>charitatis Theologicae. Item dona Spiritus Sancti scilicet sapientiam 
+        <lb ed="#K" n="11"/>Intellectum scientiam, Consilium, pietatem, fortitudinem, et timorem Dei. Attribuuntur 
+        <lb ed="#K" n="12"/>haec dona Christo <ref xml:id="yth33t-f2x352-Rd1e331">Isaiae 11</ref>. Timor autem fuit in Christo non servilis, sed filialis
+        <lb ed="#K" n="13"/>ex quo oriebatur horror omnis culpae quatenus possibilis naturae humanae 
+        <lb ed="#K" n="14"/>secundum se spectatae, et reverentialis <unclear>erga</unclear> Deum propter eius eminentiam.
+        <lb ed="#K" n="15"/>Item fuerunt in Christo gratiae gratis datae id est ordinatae ad aliorum 
+        <lb ed="#K" n="16"/>bonum et utilitatem potius quam ipsius operantis. Numerantur ab Aposto<lb ed="#K" n="17"/>lo
+        <ref xml:id="yth33t-f2x352-Rd1e347">ad Corinth: 12:</ref>. <quote xml:id="yth33t-f2x352-Qd1e349">Sermo sapientiae, Sermo scientiae, fides, prophetia, discretio
+        <lb ed="#K" n="18"/>spirituum, gratia linguarum, interpretatio sermonum</quote>, etc. Porro per fidem non intelli<lb ed="#K" n="19"/>gitur 
+        hic habitus fidei Theologicae, sed facilitas ex dono Spiritus Sancti ad propo<lb ed="#K" n="20"/>nendas 
+        res fidei accommodandas, ut etiam a rudibus percipi possunt. Circa 
+        <lb ed="#K" n="21"/>negant alii: <ref xml:id="yth33t-f2x352-Rd1e360">Suarius</ref> tamen cum caeteris putat usum fuisse in privatis colloquiis 
+        <lb ed="#K" n="22"/>non in publicis contionibus.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e366">
+        <lb ed="#K" n="23"/>Dicendum secundo In Christo non fuit habitus fidei Theologicae et pro<lb ed="#K" n="24"/>babiliter 
+        nec habitus piae affectionis. Ratio primi: in Christo non potuerunt 
+        <lb ed="#K" n="25"/>esse actus fidei, ergo nec habitus, frustra enim datur potentia quae non redu<lb ed="#K" n="26"/>citur 
+        ad actum. Probatur Antecedens, Christus in instanti conceptionis habuit visio<lb ed="#K" n="27"/>nem 
+        perfectissimam beatificam, evidentia autem intuitiva visionis connatura<lb ed="#K" n="28"/>liter 
+        excludit fidem per se obscuram. Imo non pauci existimant nec Divi<lb ed="#K" n="29"/>nitus 
+        stare posse fidem obscuram cum visione clara. Ergo veritatibus quas 
+        <lb ed="#K" n="30"/>videbat in Verbo Christus, non assentiebatur propter motivum obscure propositum, 
+        <lb ed="#K" n="31"/>adeoque non elicuit actum fidei Theologicae.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e388">
+        <pb ed="#K" n="112-r"/>
+        <lb ed="#K" n="1"/>Ratio secundi habitus piae affectionis est ex se subordinatus habitui fidei.
+        <lb ed="#K" n="2"/>Ergo ubi habitui fidei non est locus, ibi nec piae affectioni, sublato enim 
+        <lb ed="#K" n="3"/>principali <unclear>tolli</unclear> debet et consecutivum, alias in Angelis concedendi esset 
+        <lb ed="#K" n="4"/>habitus supernaturales pro actibus sobrietatis et castitatis saltem conditi<lb ed="#K" n="5"/>natis.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e406">
+        <lb ed="#K" n="6"/>Dicendum tertio. Probabilius in Christo non fuit habitus spei Theo<lb ed="#K" n="7"/>logicae.
+        Est contra <ref xml:id="yth33t-f2x352-Rd1e412">Suarium</ref>, <ref xml:id="yth33t-f2x352-Rd1e414">Lugonem</ref>, <ref xml:id="yth33t-f2x352-Rd1e416">Becanum</ref>, etiam contra meum Proffessorem
+        <lb ed="#K" n="8"/>solidi ingenii virum <ref xml:id="yth33t-f2x352-Rd1e421">Pater Ioannem Dreus</ref>.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e425">
+        <lb ed="#K" n="9"/>Probatur quia actus spei essentialiter tendit in obiectum <unclear>absens arduum</unclear>,
+        auxilio et <unclear>promissione</unclear> Dei <unclear>consequibile</unclear>, cum quadam erectione animi infru<lb ed="#K" n="10"/>imperfectionem 
+        illius, adeoque in conatu ad illud obtinendum, sed talis actus non fuit
+        <lb ed="#K" n="11"/>in Christo, Ergo etc. Maior discutitur ubi tractatur de fide, spe et cha<lb ed="#K" n="12"/>ritate. 
+        Minor patet, quia Christus ab instanti suae conceptionis semper 
+        <lb ed="#K" n="13"/>fuit beatus, habuitque praesentem sibi beatitudinem aeternam. Ergo etc.
+        <lb ed="#K" n="14"/>Dicit Professor. licet non potuerit elicere Christus spem aut desiderium, 
+        <lb ed="#K" n="15"/>circa Dei visionem tanquam circa bonum absens et arduum, potuit tamen eli<lb ed="#K" n="16"/>cere 
+        amorem concupiscentiae et gaudium de possessione Dei. Ergo habuit 
+        <lb ed="#K" n="17"/>spem Theologicam. Respondeo nego Consequentiam, Diversissimi enim sunt actus, spes, et 
+        <lb ed="#K" n="18"/>gaudium de possessione Dei, illa enim tendit in obiectum arduum absens, bonum, gaudium
+        <lb ed="#K" n="19"/>vero et amor concupiscentiae versatur circa obiectum bonum praesens.
+        <lb ed="#K" n="20"/>Urget: Christus habuit actus speret desiderii circa resurrectionem et gloriam 
+        <lb ed="#K" n="21"/>corporis sui. Ergo etc. Respondeo de futura resurrectione corporis item de glo<lb ed="#K" n="22"/>ria, 
+        item de nominis ac corporis sui exaltatione, aliisque, bonis futuris, 
+        <lb ed="#K" n="23"/>Christus habuit potius certitudinem evidentiae, ac proinde in talibus obiectis 
+        <lb ed="#K" n="24"/>respectu Christi deficiebat arduitas requisita ad spem.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e469">
+        <lb ed="#K" n="25"/>Dicendum quarto. In Christo Domino non fuit habitus paenitentiae.
+        <lb ed="#K" n="26"/>Ratio quia per paenitentiam intelligitur virtus specialis, cuius unicus et adaequatus 
+        <lb ed="#K" n="27"/>actus est dolere et satisfacere Deo pro peccato a se commisso. Atqui Christus non 
+        <lb ed="#K" n="28"/>habuit talem virtutem siquidem nullum commisit peccatum, ut patebit Disputatione 
+        <lb ed="#K" n="29"/>sequenti. Ergo, etc. Nihilominus si intelligatur paenitentia pro aliquo virtute 
+        <lb ed="#K" n="30"/>cuius actus sit detestari peccatum a quocunque comissum, et velle pro illo satisface<lb ed="#K" n="31"/>re,
+        <lb ed="#K" n="32"/>patet in Christo talem paenitentiae virtutem fuisse, sed improprie sumpta. 
+      </p>
+      <p xml:id="yth33t-f2x352-d1e489">
+        <lb ed="#K" n="33"/>Dicendum quinto. Christus non indigebat gratiis actualibus exci<lb ed="#K" n="34"/>tantibus 
+        <pb ed="#K" n="112-v"/>
+        et adiuvantibus distinctis a visione beatifica, scientia infusa 
+        <lb ed="#K" n="35"/>atque amore theologico et beatifico. Ita <ref xml:id="yth33t-f2x352-Rd1e497">Suarez. Disp. <unclear>16</unclear> sec. 4 conclusione
+        <lb ed="#K" n="36"/>secunda Perez</ref> et caeteri.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e505">
+        <lb ed="#K" n="37"/>Probatur. Quia visio et amor beatificus hoc ipsum <unclear>abunde</unclear> praestabant 
+        <lb ed="#K" n="38"/>in Christo quod illae gratiae praestare debuissent scientia enim beata et 
+        <lb ed="#K" n="39"/>infusa sufficienter repraesentabat illi omnia obiecta et honestatem 
+        <lb ed="#K" n="40"/>vel inhonestatem eorum. Amor etiam Dei consequens visione beatificam in<lb ed="#K" n="41"/>clinabat 
+        voluntatem proportionato modo ad quemlibet honestam operationem. 
+        <lb ed="#K" n="42"/>Proinde hi ipsi actus obibant munus gratiarum auxiliantium. 
+        <lb ed="#K" n="43"/>Notandum tamen quod quamvis non fuerint absolute necessaria distincta ab illis 
+        <lb ed="#K" n="44"/>actibus auxiliae gratiae actualis, tamen non sunt universim excludende a Christo 
+        <lb ed="#K" n="45"/>peculiares motiones Spiritus Sancti aut auxilia gratiae excitantis 
+        <lb ed="#K" n="46"/>indicat enim quasdam scriptura ut dum dicit Christum a Spiritu impulsum et 
+        <lb ed="#K" n="47"/>ductum in desertum. Quodsi Christus constitutus fuisset in statu 
+        <lb ed="#K" n="48"/>puri viatoris sine visione beatifica, indiguisset gratiis excitantibus 
+        <lb ed="#K" n="49"/>et adiuvantibus, Unio enim hypostatica per se immediate et formaliter 
+        <lb ed="#K" n="50"/>non excitat nec roborat potentias, sed solum radicaliter, quatenus connaturali<lb ed="#K" n="51"/>ter
+        eam sequi debent necessaria auxilia.
+      </p>
+      <p xml:id="yth33t-f2x352-d1e542">
+        <lb ed="#K" n="52"/>Dicendum sexto. Christus propriis actibus non auxit habitus virtutum 
+        <lb ed="#K" n="53"/>moralium sibi infusos. Ita <ref xml:id="yth33t-f2x352-Rd1e548">Suarius</ref> contra Hurtadum. Ratio quia ha<lb ed="#K" n="54"/>bitus 
+        ex natura rei crescunt per exercitia actuum: Quia tamen in Christo in 
+        <lb ed="#K" n="55"/>instanti conceptionis infusi fuerunt in ea perfectione quam habere 
+        <lb ed="#K" n="56"/>possunt secundum legem Dei ordinariam, et cuius capaces sunt vires naturae 
+        <lb ed="#K" n="57"/>humanae secundum cursum ordinarium, non videntur augmentum <unclear>accepisse per actus</unclear>
+        <lb ed="#K" n="58"/>ex actibus frequentatis meritoriis.
+      </p>
+      </div>
+    </body>
+  </text>
+</TEI>
