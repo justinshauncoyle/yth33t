@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sectio 1</title>
+        <author ref="#per-sykisy">Stefan Yavorskyi</author>
+        <respStmt>
+          <name ref="#justincoyle">Justin Coyle</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sectio 1</title>
+          <date when="2026-07-01">July 1, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-hbbgut">KDA 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="112-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="yth33t-f2x368">
+      <head xml:id="yth33t-f2x368-Hd1e108">De impeccabilitate Christi</head>
+      <p xml:id="yth33t-f2x368-d1e110">
+        <lb ed="#K" n="27"/>DISPUTATIO IX
+        <lb ed="#K" n="28"/>De Impeccabilitate CHristi et Beatissimae 
+        <lb ed="#K" n="29"/>Matris et sui 
+        </p>
+      <p xml:id="yth33t-f2x368-d1e119">
+        <lb ed="#K" n="30"/>SECTIO I
+        <lb ed="#K" n="31"/>De Impeccabilitate CHristi 
+      </p>
+      <p xml:id="yth33t-f2x368-d1e126">
+        <pb ed="#K" n="113-r"/>
+        <lb ed="#K" n="1"/>Certum est apud Catholicos Christum etiam ut hominem neque habuisse neque secundum legem 
+        <lb ed="#K" n="2"/>ordinariam habere potuisse ullum peccatum sive originale sive personale sive mor<lb ed="#K" n="3"/>tale 
+        sive veniale. Non originale, quia ab Adamo <unclear>praevariatore</unclear> non descendit ordi<lb ed="#K" n="4"/>naria 
+        generationis via; Non mortale, quia <ref xml:id="yth33t-f2x368-Rd1e141">Isaias 53</ref> testatur Deum non 
+        <lb ed="#K" n="5"/>fecisse iniquitatem nec inventum esse dolum in ore ipsius. Et <ref xml:id="yth33t-f2x368-Rd1e145">ad Hebreos <unclear>4</unclear></ref>
+        <lb ed="#K" n="6"/>dicitur Christus tentatus per omnia absque peccato. Quibus sufficienter 
+        <lb ed="#K" n="7"/>obstruatur modernorum haeresiarcharum blasphemum os, quod Christus in 
+        <lb ed="#K" n="8"/>Cruce peccaverit impatientia et desperatione.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e157">
+        <lb ed="#K" n="9"/>Certum est secundo apud Theologos Christum fuisse omnino impeccabilem 
+        <lb ed="#K" n="10"/>supposito statu beatitudinis quem de facto habebat. Ratio quia 
+        <lb ed="#K" n="11"/>visio beatifica necessitat voluntatem ad amorem Dei.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e167">
+        <lb ed="#K" n="12"/>Controvertitur solum hic, utrum seclusa beatitudine humanitas 
+        <lb ed="#K" n="13"/>Christi unita Verbo ex vi <unclear>unionis</unclear> praecisae simpliciter in capax fuerit pec<lb ed="#K" n="14"/>cati?
+        et quidem primo an Christus potuerit committere aliquod peccatum 
+        <lb ed="#K" n="15"/>non destruens unionem physicam, verba gratia veniale. Secundo utrum committere potuerit 
+        <lb ed="#K" n="16"/>peccatum per quod solueretur illa unio hypostatica. Tertio Utrum potuerit ser<lb ed="#K" n="17"/>vare 
+        peccatum habituale, si illud eius humanitas contraxisset ante unio<lb ed="#K" n="18"/>nem.
+        Quarto Utrum habuerit vel habere potuerit fomitem peccati?
+      </p>
+      <p xml:id="yth33t-f2x368-d1e187">
+        <lb ed="#K" n="19"/>Dicendum primo Humanitas Christi unita Verbo fuit absolute impecca<lb ed="#K" n="20"/>bilis.
+        Est communis Theologorum, contra <ref xml:id="yth33t-f2x368-Rd1e193">Durandum</ref> asserentem non repugna<lb ed="#K" n="21"/>re 
+        Deum peccare per assumptam naturam. Cui accessisse videtur <ref xml:id="yth33t-f2x368-Rd1e197">Scotus in 
+        <lb ed="#K" n="22"/>tertium distinctione secunda quaestione prima, et distinctione 12</ref>, ubi dicit 
+        <lb ed="#K" n="23"/>Christum ratione beatitudinis non potuisse peccare, non vero ex vi solius 
+        <lb ed="#K" n="24"/>unionis hypostaticae.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e208">
+        <lb ed="#K" n="25"/>Probatur primo. Densa Patrum authoritate quae videri potest apud <ref xml:id="yth33t-f2x368-Rd1e212">Suarium 
+        <lb ed="#K" n="26"/>disputatione tertia</ref>. <ref xml:id="yth33t-f2x368-Rd1e217">Sanctus Hilarius Libro 3 de Trinitate</ref> ait: <quote xml:id="yth33t-f2x368-Qd1e219">ita repug<lb ed="#K" n="27"/>nare 
+        peccatum Christo sicut repugnat Christum non esse Christum</quote>. <ref xml:id="yth33t-f2x368-Rd1e224">Sanctus Augusti<lb ed="#K" n="28"/>nus
+        Libro primo contra duas Epistolas pelagianorum</ref>: non ob aliud (in quid de 
+        <lb ed="#K" n="29"/>Christo) factus est inter Deum et hominem mediator, nisi quia ex homi<lb ed="#K" n="30"/>nibus
+        non potuit esse peccator.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e235">
+        <lb ed="#K" n="31"/>Probatur secundo ratione: Sanctitas summa et omnimoda necessario 
+        <lb ed="#K" n="32"/>excludit omne peccatum etiam veniale vel habituale. In Christo formaliter 
+        <lb ed="#K" n="33"/>et immediate sanctificato per verbum est talis sanctitas. Ergo etc.
+        <pb ed="#K" n="113-v"/>
+        <lb ed="#K" n="1"/>minor patet maior probatur: Sanctitas ut sic excludit peccatum.
+        <lb ed="#K" n="2"/>Ergo sanctitas summa excludit omne peccatum ut patet in Deo alias 
+        <lb ed="#K" n="3"/>non esset summa.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e253">
+        <lb ed="#K" n="4"/>Probatur tertio ratione <ref xml:id="yth33t-f2x368-Rd1e257">Suarii</ref>: Si Christus peccaret per humani<lb ed="#K" n="5"/>tatem, 
+        Deus ipse peccaret. Hoc repugnat absolute. Ergo et illud.
+        <lb ed="#K" n="6"/>Probatur sequela maioris: Verbum ratione unionis hypostaticae 
+        <lb ed="#K" n="7"/>tenentur dirigere et gubernare naturam inferiorem quam assumpsit 
+        <lb ed="#K" n="8"/>in unitatem personae, ne quid inhonestum, rationi difforme, et Deo odi<lb ed="#K" n="9"/>bile
+        committat. Ergo si nihilominus in aliquo casu natura Christi 
+        <lb ed="#K" n="10"/>peccaret, peccaret ipsum Verbum seu Deus secundum se, quia obliga<lb ed="#K" n="11"/>tioni 
+        suae non satis faceret. Antecedens probatur: quia quanto est arctior
+        <lb ed="#K" n="12"/>inter superiorem et inferiorem coniunctio, tanto magis tenetur
+        <lb ed="#K" n="13"/>dirigere ille istum: sic quia maiore coniunctio patris cum <!-- eum? -->
+        <lb ed="#K" n="14"/>filio, quam domini cum servo, magis tenetur pater dirigere, et 
+        <lb ed="#K" n="15"/>bonis moribus instruere, ac amolo avertere filium. Ergo cum in 
+        <lb ed="#K" n="16"/>Christo intima sit et summa quae esse potest coniunctio naturae
+        <lb ed="#K" n="17"/>huc Divinae cum humana, vere tenetur eam efficaciter avertere abom<lb ed="#K" n="18"/>ni
+        peccato. Hanc rationem insinuat <ref xml:id="yth33t-f2x368-Rd1e291">Sanctus Cyprianus Sermone
+        <lb ed="#K" n="19"/>detentatione Christi</ref>. <ref xml:id="yth33t-f2x368-Rd1e297">Sanctus Epiphanius in An corato non longe a fine</ref>
+        <lb ed="#K" n="20"/>inquit: <quote xml:id="yth33t-f2x368-Qd1e301">Si Christus superne perfectus est (scilicet secundum divinitatem)</quote>
+        <lb ed="#K" n="21"/>etiam inferne: quod si inferne imperfectus esset, etiam superne.
+        <lb ed="#K" n="22"/>Ex quibus patet quod non solum per communicationem Idiomatum, sed vere secundum 
+        <lb ed="#K" n="23"/>se Deus peccaret, si Christo permitteret peccatum. Confirmatur. 
+        <lb ed="#K" n="24"/>Quia vi unionis hypostaticae ex natura Divina et humana fit unum 
+        <lb ed="#K" n="25"/>ens simpliciter, idque tam vere unum ac per se, sicut fit ex anima et
+        <lb ed="#K" n="26"/>corpore. Ergo oportet ut in illo toto sit unum veluti primum mo<lb ed="#K" n="27"/>vens
+        ad quod pertineat operationes huius personae dirigere
+        <lb ed="#K" n="28"/>et gubernare, hoc enim per se postulare videtur rectae guberna<lb ed="#K" n="29"/>tionis 
+        ordo, quia alias totum illud non bene esset institutu <!-- institutum? -->. Verbum
+        <lb ed="#K" n="30"/>ergo ex essentiali sua rectitudine et sapientissima bonitate te<lb ed="#K" n="31"/>nebatur 
+        in natura sibi hypostatice unita impedire <unclear>omne</unclear> peccatum 
+        <pb ed="#K" n="114-r"/>
+        <lb ed="#K" n="1"/>Probant alii quarto Quia repugnat peccatum Deificari, infinite 
+        <lb ed="#K" n="2"/>sanctificari, esse adorabile etc atqui haec convenirent pecca<lb ed="#K" n="3"/>to 
+        Christo ratione unionis hypostatice, sicut conveniunt aliis eius 
+        <lb ed="#K" n="4"/>actibus. Ergo etc.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e343">
+        <lb ed="#K" n="5"/>Obiicitur primo Humanitati Christi conveniunt omnia praedicata 
+        <lb ed="#K" n="6"/>essentialia et proprietates humanitatis. Ergo etiam potentia peccandi.
+        <lb ed="#K" n="7"/>Respondeo distinguo Consequens potentia peccandi remota Concedo, pro<lb ed="#K" n="8"/>xima 
+        nego.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e355">
+        <lb ed="#K" n="9"/>Obiicitur secundo Posset humanitas assumi sine ullo dono super<lb ed="#K" n="10"/>naturali 
+        superaddito, propter unionem. Ergo tunc ille homo non minus 
+        <lb ed="#K" n="11"/>esset ignorans quam caeteri, nec minus fragilis ad operandum ex 
+        <lb ed="#K" n="12"/>inconsideratia vel passione. Ergo posset peccare. Respondeo misso ante<lb ed="#K" n="13"/>cedente 
+        et prima Consequentia, nego secundum. Quia talis humanitas ob 
+        <lb ed="#K" n="14"/>rationes iam dictas, non haberet paratum concursus Divinum ad actus 
+        <lb ed="#K" n="15"/>peccaminosos, Deus enim teneretur negare concursum ad peccata commissio<lb ed="#K" n="16"/>nis.
+        Peccata autem omissionis impedire deberet vel necessitando 
+        <lb ed="#K" n="17"/>ad operationem, vel tollendo advertentiam. Ex dictis.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e377">
+        <lb ed="#K" n="18"/>Collige. quod nec posset in humanitate hypostatice unita con<lb ed="#K" n="19"/>servari 
+        per modum habitus peccatum ab ipsa commissum ante assumptio<lb ed="#K" n="20"/>nem.
+        Ratio quia substantialis et summa sanctitatis Verbi infini<lb ed="#K" n="21"/>ties
+        magis opponitur <unclear>peccato omninis</unclear> quam gratia sanctificans.
+        <lb ed="#K" n="22"/>Ergo si haec non potest in natura cui unitur, pati peccatum mortale etiam 
+        <lb ed="#K" n="23"/>habituale, multo minus illa. Et licet haec posset pati veniale,
+        <lb ed="#K" n="24"/>non tamen illo, quia infinities magis sanctificat.
+      </p>
+      <p xml:id="yth33t-f2x368-d1e397">
+        <lb ed="#K" n="25"/>Dicendum secundo In Christo Domino nec fuit fomes peccati sive 
+        <lb ed="#K" n="26"/>in actu primo sive secundo. Ita communiter Theologi. Ratio quia incon<lb ed="#K" n="27"/>veniens 
+        fuit Divinae personae et summae sanctitati tale incentivum pec<lb ed="#K" n="28"/>cati.
+        Proinde si in Adamo non fuit in statu innocentiae, multo minus 
+        <lb ed="#K" n="29"/>in Christo. Porro fomes in actu primo dicitur ipse appetitus sensi<lb ed="#K" n="30"/>tivus
+        prout proxime potens elicere actus inordinatos rationem praevenien<lb ed="#K" n="31"/>tes.
+        Fomes in actu secundo sunt ipsi actus indeliberati eiusdem appeti<lb ed="#K" n="32"/>tus 
+        praevenientes rationem et voluntatem, quodammodo trahentes ad ma<lb ed="#K" n="33"/>lum.
+        Atqui in Christo Domino sensus corporei vigebat sine 
+        <pb ed="#K" n="114-v"/>
+        <lb ed="#K" n="1"/>lege peccati ut ait Divus Chrisostomus, et sub moderatione rationis
+        <lb ed="#K" n="2"/>et mentis erant, nec tentabantur illecebris. Ergo etc.
+      </p>
+      </div>
+    </body>
+  </text>
+</TEI>
